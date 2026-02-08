@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "date": "2026-02-08",
+    "title": "BLACKPINK新专辑《DEADLINE》定档",
+    "category": "女团",
+    "source": "Korea Herald",
+    "content": "BLACKPINK第3张迷你专辑《DEADLINE》定档2026年2月27日下午2点（KST）发布！这是组合三年多来的首张团体专辑。",
+    "link": "https://www.koreaherald.com/article/10672006",
+    "tags": ["BLACKPINK", "K-pop", "新专辑"]
+  },
+  {
+    "id": "2",
+    "date": "2026-02-08",
+    "title": "Jennie与Tame Impala合作《Dracula》Remix",
+    "category": "女团",
+    "source": "Hypebeast",
+    "content": "Jennie与Tame Impala合作推出《Dracula》Remix版本，引发BTS粉丝和BLINKs的Spotify榜单友好交流。",
+    "link": "https://hypebeast.com/2026/2/tame-impala-dracule-jennie-blackpink-remix-single-stream",
+    "tags": ["Jennie", "Tame Impala", "合作"]
+  },
+  {
+    "id": "3",
+    "date": "2026-02-08",
+    "title": "Trump承诺资助纽约隧道项目",
+    "category": "美国政治",
+    "source": "X/Twitter",
+    "content": "Trump被曝承诺资助纽约隧道项目，条件是重命名宾州车站和杜勒斯机场。",
+    "link": "https://x.com/polidemitolog",
+    "tags": ["Trump", "美国", "基建"]
+  },
+  {
+    "id": "4",
+    "date": "2026-02-08",
+    "title": "印美贸易协定取得进展",
+    "category": "国际新闻",
+    "source": "X/Twitter",
+    "content": "莫迪总理与Trump通话后，印度和美国正就贸易协定框架进行磋商。",
+    "link": "https://x.com/SinghPramod2784",
+    "tags": ["印度", "美国", "贸易"]
+  },
+  {
+    "id": "5",
+    "date": "2026-02-08",
+    "title": "AI从炒作到商业落地研讨会",
+    "category": "科技",
+    "source": "PrashantAdvait Foundation",
+    "content": "讨论如何将AI技术转化为实用、可扩展的商业应用。",
+    "link": "https://x.com/Prashant_Advait",
+    "tags": ["AI", "科技", "商业"]
+  }
+]
