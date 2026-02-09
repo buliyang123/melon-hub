@@ -1,6 +1,66 @@
 [
   {
-    "id": "1",
+    "id": "2026-02-09-1",
+    "date": "2026-02-09",
+    "title": "AI导致裁员？数据显示仅7%裁员与AI相关",
+    "category": "科技",
+    "source": "X/GlobalMktObserv",
+    "content": "人工智能被引用为1月份108,435个裁员中的7,624个裁员的原因，仅占当月所有裁员的7%。自2023年以来，AI已成为裁员公告中越来越常见的归因因素。",
+    "link": "https://x.com/GlobalMktObserv/status/2020529508772700416",
+    "tags": ["AI", "裁员", "就业市场"]
+  },
+  {
+    "id": "2026-02-09-2",
+    "date": "2026-02-09",
+    "title": "Apple在AI领域落后了吗？",
+    "category": "科技",
+    "source": "X/DailyAITechNews",
+    "content": "Apple以用户为中心的AI功能正在引起轰动，如AirPods的实时翻译和iPhone的视觉智能。Tim Cook强调隐私保护是Apple AI战略的核心。",
+    "link": "https://x.com/DailyAITechNews/status/2020473704417792106",
+    "tags": ["Apple", "AI", "Tim Cook"]
+  },
+  {
+    "id": "2026-02-09-3",
+    "date": "2026-02-09",
+    "title": "Trump政府战略转向：从军事威慑到外交谈判",
+    "category": "美国政治",
+    "source": "X/DailyNewsEgypt",
+    "content": "马斯喀特会谈的恢复标志着Trump政府'极限施压'运动的关键转折，从纯粹的军事威慑转向外交谈判。",
+    "link": "https://x.com/DailyNewsEgypt/status/2020475422878617981",
+    "tags": ["Trump", "外交", "中东"]
+  },
+  {
+    "id": "2026-02-09-4",
+    "date": "2026-02-09",
+    "title": "Trump拒绝为涉种族主义视频道歉",
+    "category": "美国政治",
+    "source": "X/CNN",
+    "content": "尽管共和党呼吁道歉，Trump总统拒绝为分享一个已被删除的、将奥巴马一家描绘成猿猴的种族主义视频道歉。",
+    "link": "https://x.com/CNN",
+    "tags": ["Trump", "CNN", "争议"]
+  },
+  {
+    "id": "2026-02-09-5",
+    "date": "2026-02-09",
+    "title": "日本高市 coalition 获得议会超级多数",
+    "category": "国际新闻",
+    "source": "X/ReutersWorld",
+    "content": "日本高市早苗领导的执政联盟确保了议会超级多数席位；泰国Anutin的政党在大选中获胜。同时，黎巴嫩建筑物倒塌造成至少6人死亡。",
+    "link": "https://twitter.com/ReutersWorld",
+    "tags": ["日本", "泰国", "选举"]
+  },
+  {
+    "id": "2026-02-09-6",
+    "date": "2026-02-09",
+    "title": "BLACKPINK首张概念照发布，《DEADLINE》回归倒计时",
+    "category": "女团",
+    "source": "Korea JoongAng Daily",
+    "content": "BLACKPINK发布新EP《DEADLINE》首张概念照，展现精致造型。这是组合三年五个月以来的首张专辑，定于2月27日发布。同时VOGUE KOREA确认她们正在准备世界巡演。",
+    "link": "https://koreajoongangdaily.joins.com/news/2026-02-09/entertainment/kpop/Blackpink-unveils-refined-look-in-first-portraits-for-new-EP-Deadline/2519147",
+    "tags": ["BLACKPINK", "DEADLINE", "回归", "K-pop"]
+  },
+  {
+    "id": "2026-02-08-1",
     "date": "2026-02-08",
     "title": "BLACKPINK新专辑《DEADLINE》定档",
     "category": "女团",
@@ -10,7 +70,7 @@
     "tags": ["BLACKPINK", "K-pop", "新专辑"]
   },
   {
-    "id": "2",
+    "id": "2026-02-08-2",
     "date": "2026-02-08",
     "title": "Jennie与Tame Impala合作《Dracula》Remix",
     "category": "女团",
@@ -20,7 +80,7 @@
     "tags": ["Jennie", "Tame Impala", "合作"]
   },
   {
-    "id": "3",
+    "id": "2026-02-08-3",
     "date": "2026-02-08",
     "title": "Trump承诺资助纽约隧道项目",
     "category": "美国政治",
@@ -30,7 +90,7 @@
     "tags": ["Trump", "美国", "基建"]
   },
   {
-    "id": "4",
+    "id": "2026-02-08-4",
     "date": "2026-02-08",
     "title": "印美贸易协定取得进展",
     "category": "国际新闻",
@@ -40,7 +100,7 @@
     "tags": ["印度", "美国", "贸易"]
   },
   {
-    "id": "5",
+    "id": "2026-02-08-5",
     "date": "2026-02-08",
     "title": "AI从炒作到商业落地研讨会",
     "category": "科技",
