@@ -7,8 +7,110 @@ import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Search, Calendar, Tag, ExternalLink } from 'lucide-react'
 import Fuse from 'fuse.js'
 
-// 🍉 瓜田数据 - 每日更新
+// 🍉 瓜田数据 - 每日更新 (2026-02-10 晚班补更)
 const MELONS_DATA = [
+  // ========== 2026-02-10 晚班新增 ==========
+  {
+    "id": "2026-02-10-evening-1",
+    "date": "2026-02-10",
+    "title": "美国公司借AI名义裁员被批'AI洗白'",
+    "category": "AI",
+    "source": "The Guardian",
+    "content": "多家美国公司被指控以人工智能为借口进行裁员，引发'AI洗白'争议。英国就业部长Liz Kendall承认AI将导致失业，引发社会对AI取代工作岗位的担忧。",
+    "link": "https://www.theguardian.com/us-news/2026/feb/08/ai-washing-job-losses-artificial-intelligence",
+    "tags": ["AI", "裁员", "就业", "争议"]
+  },
+  {
+    "id": "2026-02-10-evening-2",
+    "date": "2026-02-10",
+    "title": "AI医疗误诊风险：来源看似合法更易误导",
+    "category": "AI",
+    "source": "Reuters",
+    "content": "最新研究显示，AI大语言模型更容易被来源看似合法的医疗虚假信息所欺骗。如果医疗建议来源看起来可信，AI更容易传播错误信息，这对患者安全构成潜在威胁。",
+    "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/medical-misinformation-more-likely-fool-ai-if-source-appears-legitimate-study-2026-02-09/",
+    "tags": ["AI", "医疗", "安全", "研究"]
+  },
+  {
+    "id": "2026-02-10-evening-3",
+    "date": "2026-02-10",
+    "title": "特朗普政府推动联邦AI应用热潮",
+    "category": "美国政治",
+    "source": "The Washington Post",
+    "content": "特朗普政府在联邦政府部门掀起AI应用热潮，多个联邦机构加速采用人工智能技术。此举旨在提高政府效率，但也引发对AI在政府决策中作用的争议。",
+    "link": "https://www.washingtonpost.com/technology/2026/02/09/trump-administration-ai-push/",
+    "tags": ["特朗普", "美国政府", "AI", "政策"]
+  },
+  {
+    "id": "2026-02-10-evening-4",
+    "date": "2026-02-10",
+    "title": "比亚迪就特朗普汽车关税起诉美国政府",
+    "category": "美国政治",
+    "source": "Reuters",
+    "content": "中国电动汽车巨头比亚迪正式对美国提起诉讼，要求退还特朗普政府征收的汽车关税款项。此案被视为中美贸易争端在电动汽车领域的最新交锋。",
+    "link": "https://www.reuters.com/legal/government/byd-files-lawsuit-seeks-refund-over-trumps-us-auto-tariffs-2026-02-09/",
+    "tags": ["特朗普", "比亚迪", "关税", "贸易战"]
+  },
+  {
+    "id": "2026-02-10-evening-5",
+    "date": "2026-02-10",
+    "title": "特朗普威胁封锁美加Gordie Howe大桥",
+    "category": "美国政治",
+    "source": "The New York Times/BBC",
+    "content": "特朗普威胁阻止连接密歇根州和加拿大安大略省的新Gordie Howe国际大桥开放。此举被视为对加拿大施压的贸易战争手段，引发加拿大方面强烈反应。",
+    "link": "https://www.nytimes.com/2026/02/09/us/politics/trump-gordie-howe-bridge-canada.html",
+    "tags": ["特朗普", "加拿大", "贸易战", "边境"]
+  },
+  {
+    "id": "2026-02-10-evening-6",
+    "date": "2026-02-10",
+    "title": "国会议员审查未删减爱泼斯坦文件",
+    "category": "美国政治",
+    "source": "The New York Times",
+    "content": "美国国会议员正在审查未删减的爱泼斯坦相关文件。民主党议员表示，爱泼斯坦同伙Maxwell拒绝作证可能是为了寻求特朗普的赦免。",
+    "link": "https://www.nytimes.com/live/2026/02/09/us/president-trump-news",
+    "tags": ["特朗普", "爱泼斯坦", "文件", "政治"]
+  },
+  {
+    "id": "2026-02-10-evening-7",
+    "date": "2026-02-10",
+    "title": "BLACKPINK新专辑《DEADLINE》2月27日发行",
+    "category": "女团",
+    "source": "Korea JoongAng Daily",
+    "content": "BLACKPINK宣布第三张迷你专辑《DEADLINE》将于2月27日正式发行。官方发布了四位成员Jisoo、Jennie、Rosé、Lisa的个人海报，各自展现独特风格。",
+    "link": "https://koreajoongangdaily.joins.com/news/2026-02-09/entertainment/kpop/Blackpink-unveils-refined-look-in-first-portraits-for-new-EP-Deadline/2519147",
+    "tags": ["BLACKPINK", "回归", "DEADLINE", "专辑"]
+  },
+  {
+    "id": "2026-02-10-evening-8",
+    "date": "2026-02-10",
+    "title": "新女团KiiiKiii单曲《404》取得榜单突破",
+    "category": "女团",
+    "source": "KYODO NEWS",
+    "content": "新兴女团KiiiKiii凭借单曲《404》在音乐榜单上取得突破性成绩，成为近期K-pop新人女团中的一匹黑马，引发业界关注。",
+    "link": "https://english.kyodonews.net/articles/-/70297",
+    "tags": ["KiiiKiii", "404", "新人女团", "榜单"]
+  },
+  {
+    "id": "2026-02-10-evening-9",
+    "date": "2026-02-10",
+    "title": "Katseye登上Jimmy Fallon秀 将亮相超级碗广告",
+    "category": "女团",
+    "source": "Yonhap/Korea JoongAng Daily",
+    "content": "全球女团Katseye在Jimmy Fallon秀上完成首秀，并宣布将出现在即将到来的超级碗广告中。该组合由HYBE与Geffen Records联合打造。",
+    "link": "https://en.yna.co.kr/view/AEN20260206005500315",
+    "tags": ["Katseye", "Jimmy Fallon", "超级碗", "HYBE"]
+  },
+  {
+    "id": "2026-02-10-evening-10",
+    "date": "2026-02-10",
+    "title": "aespa成为韩国军队票选最受欢迎女团",
+    "category": "女团",
+    "source": "Korea JoongAng Daily",
+    "content": "aespa在韩国军队人气调查中被评为最受欢迎女团。该组合将于3月在香港启德体育场举行演唱会，成为首支在该场地演出的K-pop女团。",
+    "link": "https://koreajoongangdaily.joins.com/news/2025-04-29/national/defense/aespa-voted-most-popular-Kpop-group-in-Korean-military-survey/2296164",
+    "tags": ["aespa", "军队", "人气", "演唱会"]
+  },
+  // ========== 原有数据 ==========
   {
     "id": "2026-02-10-1",
     "date": "2026-02-10",
